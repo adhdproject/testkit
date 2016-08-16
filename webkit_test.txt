@@ -1,0 +1,12 @@
+#This file gives signatures to determine if the tools in the webkit are properly responding
+#Format is as follows
+#path, need to see, not allowed to see
+/, adhd, purpledinosaur
+/adminer/, Login - Adminer, purpledinosaur
+/dom-hanoi.html, metasploit, purpledinosaur
+/labyrinth/, HTTP, <?php
+/honeybadger/, login-logo, <?php
+/web-bug-server/, intended for receiving, <?php
+/decloak/, Decloak.swf, purpledinosaur
+/adhd_docs/index.html, MDwiki, 404 Not Found
+/windows_tools/, OSfuscate.zip, purpledinosaur

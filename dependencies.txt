@@ -1,0 +1,63 @@
+#dependencies are specified as follows
+#name, tool applied to, distro, method
+git, general, all, apt
+sqlite3, general, all, apt
+sqlite, general, all, apt
+python-dev, general, all, apt
+libapache2-mod-php, webkit, 16.04, apt
+php7.0-mysql, webkit, 16.04, apt
+php7.0-pgsql, webkit, 16.04, apt
+php7.0-sqlite, webkit, 16.04, apt
+php7.0-odbc, webkit, 16.04, apt
+php5, webkit, 15.10, apt
+php5-mysql, webkit, 15.10, apt
+php5-pgsql, webkit, 15.10, apt
+php5-sqlite, webkit, 15.10, apt
+php5-odbc, webkit, 15.10, apt
+libpq-dev, metasploit, all, apt
+libpcap-dev, metasploit, all, apt
+python-nfqueue, oschameleon, all, apt
+python-gevent, oschameleon, all, apt
+golang, whosthere, all, apt
+netaddr, talos, all, pip
+twisted, talos, all pip
+python-qt4, creepy, all, apt
+python-pip, creepy, all, apt
+pytz, creepy, all, pip
+python-qt, creepy, all, pip
+flickrapi, creepy, all, pip
+python-instagram, creepy, all, pip
+yapsy, creepy, all, pip
+tweepy, creepy, all, pip
+google-api-python-client, creepy, all, pip
+python-dateutil, creepy, all, pip
+configobj, creepy, all, pip
+dominate, creepy, all, pip
+splinter, lockdown, all, pip
+golang-go, whosthere, all, apt
+flask, wordpot, all, pip
+ruby, beartrap, all, apt
+getopt, beartrap, all, gem
+bundler, beef, all, gem
+ruby-dev, beef, all, apt
+libsqlite3-dev, beef, all, apt
+libsqlite-dev, beef, all, apt
+openjdk-7-jdk, decloak, 15.10, apt
+openjdk-8-jdk, decloak, 16.04, apt
+libdbd-pg-perl, decloak, 16.04, apt
+mysql-server, mysql, all, apt
+postgresql, postgres, all, apt
+postgresql-contrib, postgres, all, apt
+python-twisted, kippo, all, apt
+apache2, webkit, all, apt
+
+
+
+
+
+
+
+
+
+
+faketool, general, all, apt
